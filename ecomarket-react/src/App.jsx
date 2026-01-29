@@ -15,18 +15,15 @@ function App() {
     <Router>
 
       <NavBarPrincipal />
-
-      
       <Routes>
         
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<Contacts />} />
         <Route path="/" element={<Products />} />
+        <Route path="/" element={<Contacts />} />
 
       </Routes>
-
-      
       <FooterPrincipal />
+
     </Router>
   );
 }
